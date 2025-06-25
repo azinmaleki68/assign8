@@ -1,0 +1,237 @@
+body{
+    background-color: black;
+    direction: ltr;
+}
+#see {
+    
+    margin-top:24px;
+ 
+}
+#menu{
+    color: white;
+    float:left ;
+    list-style-type:none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu li{
+    float:left ;
+    padding-top:1px;
+
+}
+
+#menu li a {
+    color:rgb(245, 243, 243);
+    text-decoration:none;
+    height: 60px;
+    padding: 30px;
+  
+}
+#menu li a:hover{
+color: black;
+    
+}
+
+#menu li:hover{
+ color:black;
+ background-color: #fafafa;
+ height: 30px;
+ position: relative;
+}
+
+.subdropdown li{
+   background-color: white ;
+   position:relative;
+   list-style-type: none;
+    float: none;
+    margin: 2px;
+    padding:3px;
+    font-weight:bolder;
+}
+
+#lg{
+    background-color:rgb(74, 141, 110);
+    height: 30px;
+    width: 90px;
+}
+#lg:hover{
+background-color: rgb(172, 127, 255);
+}
+
+.subdropdown{
+    display: none;
+    position: absolute;
+
+}
+#menu li:hover .subdropdown{
+    display:block;
+    color: black;
+    
+ 
+    }
+#dro .subdropdown li :hover{
+    color: black;
+    display:block;
+    margin: 40px;
+   padding-right:20px;
+}
+
+.row{
+    margin-top: 180px;
+    display:flex;
+}
+
+.col{
+    width: 25%;
+    text-align: center;
+
+}
+ .material-icons{
+    color: rgb(248, 243, 243);
+    transform: rotate(180deg);
+ }
+ #ourWork{
+    position: relative;
+    top:100px;
+    background-color: rgb(68, 66, 66);
+   }
+
+.row2{
+    display: flex;
+
+    
+}
+.col3{
+    background-color :white;
+    width: 25%;
+    height: 500px;
+    width: 450px;
+    display:block;
+}
+
+
+.col2{
+    margin:15px;
+      width: 25%;
+    margin-top: 40px;  
+}
+
+
+
+#team{
+    text-align:center ;
+    position: relative;
+     top:100px;
+      color:black;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size:40px ;
+}
+#meet{
+    text-align:center ;
+    position: relative;
+     top:105px;
+      color:black;
+       font-family: Arial, Helvetica, sans-serif;
+}
+#ourteam .pic li{
+    position:relative;
+    text-decoration: none;
+    top: 50px;
+    left:70px;
+    list-style-type:none;
+    float:left;
+    padding:100px;
+}
+
+.pic h2{
+   padding-left: 60px;
+   padding-right:30px;
+   font-size:20px;
+}
+
+.pic h3{
+    padding-right:50px;
+    padding-left: 80px;
+    font-size:15px;
+    
+   }
+  
+   #ourWork-header{
+    position: relative;
+    top: 20px;
+    font-size:50px;
+   }
+   #ice{
+    position:relative;
+    left:600px;
+     background-color:  white; 
+     width: 300px;
+    height:400px;
+    bottom: 750px;
+   }
+   #shafagh{
+    position:relative;
+    left:950px;
+     background-color:  white; 
+     width: 300px;
+    height:400px;
+    bottom:1150px;
+   }
+   #mauntain{
+    position:relative;
+    left:1300px;
+     background-color:  white; 
+     width: 300px;
+    height:400px;
+    bottom:1550px;
+   }
+  
+   #pricing{
+    position: relative;
+    top:-60px;
+   }
+   #Contact-Us .ad h2,h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+
+  
+ /**#img1{
+    position:relative;
+    top: 100px;;
+    left:50px;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width:200px;
+ }
+ #img2{
+    position:relative;
+    top:100px;
+    left:350px;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width:200px;
+ }
+ #img3{
+    position:relative;
+    top:100px;
+    left:650px;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width:200px;
+ }
+ #img4{
+    position:relative;
+    top:100px;
+    left:950px;
+    border-top-right-radius:50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width:200px;
+ }**/
